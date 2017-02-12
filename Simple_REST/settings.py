@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'simple_rest.apps.SimpleRestConfig'
+    'rest_framework',                       # rest framework
+    'simple_rest.apps.SimpleRestConfig'     # our app, SimpleRestConfig is from simple_rest->apps.py (auto generated class)
 ]
 
 MIDDLEWARE = [

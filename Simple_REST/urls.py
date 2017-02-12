@@ -1,6 +1,9 @@
 from django.conf.urls import url
 from django.contrib import admin
-from rest_framework.urlpatterns import format_suffix_patterns
+
+#Returns a URL pattern list which includes format suffix patterns appended to each of the URL patterns provided.
+from rest_framework.urlpatterns import format_suffix_patterns	#format_suffix_patterns(urlpatterns, suffix_required=False, allowed=None)
+
 from simple_rest import views
 
 
